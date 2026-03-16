@@ -1,0 +1,6 @@
+lexiscan/application.py
+lexiscan/window.py
+lexiscan/ui/definition_view.py
+lexiscan/ui/phonetic_view.py
+lexiscan/ui/image_view.py
+lexiscan/ui/translation_view.py

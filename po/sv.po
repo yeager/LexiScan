@@ -1,0 +1,65 @@
+# Swedish translations for LexiScan.
+# Copyright (C) 2024
+# This file is distributed under the same license as the LexiScan package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LexiScan 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2024-01-01 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Swedish\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lexiscan/window.py
+msgid "LexiScan - Ordbok"
+msgstr "LexiScan - Ordbok"
+
+#: lexiscan/window.py
+msgid "Aktivera/avaktivera urklippsövervakning"
+msgstr "Aktivera/avaktivera urklippsövervakning"
+
+#: lexiscan/window.py
+msgid "Sök ord..."
+msgstr "Sök ord..."
+
+#: lexiscan/window.py
+msgid "Söker..."
+msgstr "Söker..."
+
+#: lexiscan/window.py
+msgid "Markera text i valfri app för att slå upp ord.\n\nKortkommando: Ctrl+Shift+D"
+msgstr "Markera text i valfri app för att slå upp ord.\n\nKortkommando: Ctrl+Shift+D"
+
+#: lexiscan/window.py
+msgid "Söker '{word}'..."
+msgstr "Söker '{word}'..."
+
+#: lexiscan/window.py
+msgid "Inga resultat hittades för '{word}'."
+msgstr "Inga resultat hittades för '{word}'."
+
+#: lexiscan/ui/definition_view.py
+msgid "Definitioner"
+msgstr "Definitioner"
+
+#: lexiscan/ui/definition_view.py
+msgid "Synonymer: "
+msgstr "Synonymer: "
+
+#: lexiscan/ui/phonetic_view.py
+msgid "Spela uttal"
+msgstr "Spela uttal"
+
+#: lexiscan/ui/image_view.py
+msgid "Bildstöd (ARASAAC)"
+msgstr "Bildstöd (ARASAAC)"
+
+#: lexiscan/ui/translation_view.py
+msgid "Översättning"
+msgstr "Översättning"

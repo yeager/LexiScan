@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Name=LexiScan
+Name[sv]=LexiScan
+GenericName=Dictionary Overlay
+GenericName[sv]=Ordbok-overlay
+Comment=System-wide popup dictionary with Swedish-English support
+Comment[sv]=Systemövergripande popup-ordbok med svenska-engelska stöd
+Exec=lexiscan
+Icon=com.github.lexiscan
+Categories=Education;Dictionary;GTK;
+Keywords=dictionary;translate;swedish;english;ordbok;översättning;
+StartupNotify=true
+Terminal=false
+X-GNOME-Autostart-enabled=false

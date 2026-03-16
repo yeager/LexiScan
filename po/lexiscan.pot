@@ -1,0 +1,65 @@
+# LexiScan translation template.
+# Copyright (C) 2024
+# This file is distributed under the same license as the LexiScan package.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LexiScan 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lexiscan/window.py
+msgid "LexiScan - Ordbok"
+msgstr ""
+
+#: lexiscan/window.py
+msgid "Aktivera/avaktivera urklippsövervakning"
+msgstr ""
+
+#: lexiscan/window.py
+msgid "Sök ord..."
+msgstr ""
+
+#: lexiscan/window.py
+msgid "Söker..."
+msgstr ""
+
+#: lexiscan/window.py
+msgid "Markera text i valfri app för att slå upp ord.\n\nKortkommando: Ctrl+Shift+D"
+msgstr ""
+
+#: lexiscan/window.py
+msgid "Söker '{word}'..."
+msgstr ""
+
+#: lexiscan/window.py
+msgid "Inga resultat hittades för '{word}'."
+msgstr ""
+
+#: lexiscan/ui/definition_view.py
+msgid "Definitioner"
+msgstr ""
+
+#: lexiscan/ui/definition_view.py
+msgid "Synonymer: "
+msgstr ""
+
+#: lexiscan/ui/phonetic_view.py
+msgid "Spela uttal"
+msgstr ""
+
+#: lexiscan/ui/image_view.py
+msgid "Bildstöd (ARASAAC)"
+msgstr ""
+
+#: lexiscan/ui/translation_view.py
+msgid "Översättning"
+msgstr ""
