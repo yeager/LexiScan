@@ -8,34 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lexiscan\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 12:50+0100\n"
+"POT-Creation-Date: 2026-03-16 12:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: lexiscan/ui/translation_view.py:26
-msgid "Översättning"
-msgstr ""
-
-#: lexiscan/ui/phonetic_view.py:32
-msgid "Spela uttal"
-msgstr ""
-
-#: lexiscan/ui/image_view.py:21
-msgid "Image support (ARASAAC)"
-msgstr ""
-
-#: lexiscan/ui/definition_view.py:17
-msgid "Definitioner"
-msgstr ""
-
-#: lexiscan/ui/definition_view.py:80
-msgid "Synonymer: "
-msgstr ""
 
 #: lexiscan/window.py:28
 msgid "LexiScan - Ordbok"
@@ -68,4 +48,24 @@ msgstr ""
 #: lexiscan/window.py:134
 #, python-brace-format
 msgid "No results were found for '{word}'."
+msgstr ""
+
+#: lexiscan/ui/translation_view.py:26
+msgid "Translation"
+msgstr ""
+
+#: lexiscan/ui/phonetic_view.py:32
+msgid "Spela uttal"
+msgstr ""
+
+#: lexiscan/ui/image_view.py:21
+msgid "Image support (ARASAAC)"
+msgstr ""
+
+#: lexiscan/ui/definition_view.py:17
+msgid "Definitioner"
+msgstr ""
+
+#: lexiscan/ui/definition_view.py:80
+msgid "Synonymer: "
 msgstr ""

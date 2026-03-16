@@ -23,7 +23,7 @@ class TranslationView(Gtk.Box):
     def __init__(self):
         super().__init__(orientation=Gtk.Orientation.VERTICAL, spacing=8)
 
-        self._title = Gtk.Label(label=_("\u00d6vers\u00e4ttning"))
+        self._title = Gtk.Label(label=_("Translation"))
         self._title.add_css_class("heading")
         self._title.set_halign(Gtk.Align.START)
         self.append(self._title)
