@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the LexiScan package.
+# This file is distributed under the same license as the lexiscan package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: LexiScan 1.0\n"
+"Project-Id-Version: lexiscan 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 11:51+0100\n"
+"POT-Creation-Date: 2026-03-16 12:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgid "LexiScan - Ordbok"
 msgstr ""
 
 #: lexiscan/window.py:36
-msgid "Aktivera/avaktivera urklippsövervakning"
+msgid "Enable/disable clipboard monitoring"
 msgstr ""
 
 #: lexiscan/window.py:48
@@ -30,24 +30,24 @@ msgid "Search ord..."
 msgstr ""
 
 #: lexiscan/window.py:83
-msgid "Söker..."
+msgid "Looking for..."
 msgstr ""
 
 #: lexiscan/window.py:90
 msgid ""
-"Select text i valfri app för att slå upp ord.\n"
+"Select text in any app to look up words.\n"
 "\n"
-"Kortkommando: Ctrl+Shift+D"
+"Shortcut: Ctrl+Shift+D"
 msgstr ""
 
 #: lexiscan/window.py:123
 #, python-brace-format
-msgid "Söker '{word}'..."
+msgid "Searching for '{word}'..."
 msgstr ""
 
 #: lexiscan/window.py:134
 #, python-brace-format
-msgid "Inga resultat hittades för '{word}'."
+msgid "No results were found for '{word}'."
 msgstr ""
 
 #: lexiscan/ui/translation_view.py:26
@@ -59,7 +59,7 @@ msgid "Spela uttal"
 msgstr ""
 
 #: lexiscan/ui/image_view.py:21
-msgid "Bildstöd (ARASAAC)"
+msgid "Image support (ARASAAC)"
 msgstr ""
 
 #: lexiscan/ui/definition_view.py:17

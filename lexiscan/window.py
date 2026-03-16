@@ -33,7 +33,7 @@ class LexiScanWindow(Adw.ApplicationWindow):
         self.toggle_btn = Gtk.ToggleButton()
         self.toggle_btn.set_icon_name("system-search-symbolic")
         self.toggle_btn.set_active(True)
-        self.toggle_btn.set_tooltip_text(_("Aktivera/avaktivera urklippsövervakning"))
+        self.toggle_btn.set_tooltip_text(_("Enable/disable clipboard monitoring"))
         self.toggle_btn.connect("toggled", self._on_toggle_monitoring)
         header.pack_start(self.toggle_btn)
 
@@ -80,14 +80,14 @@ class LexiScanWindow(Adw.ApplicationWindow):
         self.spinner_box.set_vexpand(True)
         self.spinner = Gtk.Spinner()
         self.spinner.set_size_request(48, 48)
-        self.loading_label = Gtk.Label(label=_("Söker..."))
+        self.loading_label = Gtk.Label(label=_("Looking for..."))
         self.loading_label.add_css_class("dim-label")
         self.spinner_box.append(self.spinner)
         self.spinner_box.append(self.loading_label)
 
         # Status label for empty state
         self.status_label = Gtk.Label(
-            label=_("Select text i valfri app för att slå upp ord.\n\nKortkommando: Ctrl+Shift+D")
+            label=_("Select text in any app to look up words.\n\nShortcut: Ctrl+Shift+D")
         )
         self.status_label.set_wrap(True)
         self.status_label.set_justify(Gtk.Justification.CENTER)
@@ -120,7 +120,7 @@ class LexiScanWindow(Adw.ApplicationWindow):
         """Show loading state for a word lookup."""
         self.search_label.set_label(f"LexiScan - {word}")
         self.search_entry.set_text(word)
-        self.loading_label.set_label(_("Söker \'{word}\'...").format(word=word))
+        self.loading_label.set_label(_("Searching for \'{word}\'...").format(word=word))
         self.spinner.start()
         self.stack.set_visible_child_name("loading")
         self.present()
@@ -131,7 +131,7 @@ class LexiScanWindow(Adw.ApplicationWindow):
 
         if not result or result.is_empty():
             self.loading_label.set_label(
-                _("Inga resultat hittades för \'{word}\'.").format(word=result.word if result else "")
+                _("No results were found for \'{word}\'.").format(word=result.word if result else "")
             )
             self.stack.set_visible_child_name("loading")
             self.spinner.stop()
