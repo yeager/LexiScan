@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=LexiScan
+Name[sv]=LexiScan
+Comment=Reading aid with text-to-speech
+Comment[sv]=Läshjälp med uppläsning
+GenericName=Accessibility Application
+GenericName[sv]=Tillgänglighetsapp
+Exec=python3 -m lexiscan
+Icon=lexiscan
+Terminal=false
+Type=Application
+Categories=Education;Accessibility;
+Keywords=accessibility;a11y;
+Keywords[sv]=tillgänglighet;funktionsnedsättning;
