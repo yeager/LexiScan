@@ -45,7 +45,7 @@ class LexiScanWindow(Adw.ApplicationWindow):
         search_box.set_margin_bottom(6)
 
         self.search_entry = Gtk.SearchEntry()
-        self.search_entry.set_placeholder_text(_("Sök ord..."))
+        self.search_entry.set_placeholder_text(_("Search ord..."))
         self.search_entry.set_hexpand(True)
         self.search_entry.connect("activate", self._on_search_activate)
         search_box.append(self.search_entry)
@@ -87,7 +87,7 @@ class LexiScanWindow(Adw.ApplicationWindow):
 
         # Status label for empty state
         self.status_label = Gtk.Label(
-            label=_("Markera text i valfri app för att slå upp ord.\n\nKortkommando: Ctrl+Shift+D")
+            label=_("Select text i valfri app för att slå upp ord.\n\nKortkommando: Ctrl+Shift+D")
         )
         self.status_label.set_wrap(True)
         self.status_label.set_justify(Gtk.Justification.CENTER)
@@ -120,7 +120,7 @@ class LexiScanWindow(Adw.ApplicationWindow):
         """Show loading state for a word lookup."""
         self.search_label.set_label(f"LexiScan - {word}")
         self.search_entry.set_text(word)
-        self.loading_label.set_label(_("Söker '{word}'...").format(word=word))
+        self.loading_label.set_label(_("Söker \'{word}\'...").format(word=word))
         self.spinner.start()
         self.stack.set_visible_child_name("loading")
         self.present()
@@ -131,7 +131,7 @@ class LexiScanWindow(Adw.ApplicationWindow):
 
         if not result or result.is_empty():
             self.loading_label.set_label(
-                _("Inga resultat hittades för '{word}'.").format(word=result.word if result else "")
+                _("Inga resultat hittades för \'{word}\'.").format(word=result.word if result else "")
             )
             self.stack.set_visible_child_name("loading")
             self.spinner.stop()

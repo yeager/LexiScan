@@ -1,65 +1,71 @@
-# LexiScan translation template.
-# Copyright (C) 2024
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the LexiScan package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: LexiScan 1.0.0\n"
+"Project-Id-Version: LexiScan 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"POT-Creation-Date: 2026-03-16 11:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: lexiscan/window.py
+#: lexiscan/window.py:28
 msgid "LexiScan - Ordbok"
 msgstr ""
 
-#: lexiscan/window.py
+#: lexiscan/window.py:36
 msgid "Aktivera/avaktivera urklippsövervakning"
 msgstr ""
 
-#: lexiscan/window.py
-msgid "Sök ord..."
+#: lexiscan/window.py:48
+msgid "Search ord..."
 msgstr ""
 
-#: lexiscan/window.py
+#: lexiscan/window.py:83
 msgid "Söker..."
 msgstr ""
 
-#: lexiscan/window.py
-msgid "Markera text i valfri app för att slå upp ord.\n\nKortkommando: Ctrl+Shift+D"
+#: lexiscan/window.py:90
+msgid ""
+"Select text i valfri app för att slå upp ord.\n"
+"\n"
+"Kortkommando: Ctrl+Shift+D"
 msgstr ""
 
-#: lexiscan/window.py
+#: lexiscan/window.py:123
+#, python-brace-format
 msgid "Söker '{word}'..."
 msgstr ""
 
-#: lexiscan/window.py
+#: lexiscan/window.py:134
+#, python-brace-format
 msgid "Inga resultat hittades för '{word}'."
 msgstr ""
 
-#: lexiscan/ui/definition_view.py
-msgid "Definitioner"
+#: lexiscan/ui/translation_view.py:26
+msgid "Översättning"
 msgstr ""
 
-#: lexiscan/ui/definition_view.py
-msgid "Synonymer: "
-msgstr ""
-
-#: lexiscan/ui/phonetic_view.py
+#: lexiscan/ui/phonetic_view.py:32
 msgid "Spela uttal"
 msgstr ""
 
-#: lexiscan/ui/image_view.py
+#: lexiscan/ui/image_view.py:21
 msgid "Bildstöd (ARASAAC)"
 msgstr ""
 
-#: lexiscan/ui/translation_view.py
-msgid "Översättning"
+#: lexiscan/ui/definition_view.py:17
+msgid "Definitioner"
+msgstr ""
+
+#: lexiscan/ui/definition_view.py:80
+msgid "Synonymer: "
 msgstr ""
