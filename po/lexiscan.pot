@@ -17,6 +17,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: lexiscan/ui/definition_view.py:17
+msgid "Definitioner"
+msgstr ""
+
+#: lexiscan/ui/definition_view.py:80
+msgid "Synonymer: "
+msgstr ""
+
+#: lexiscan/ui/image_view.py:21
+msgid "Image support (ARASAAC)"
+msgstr ""
+
+#: lexiscan/ui/phonetic_view.py:32
+msgid "Spela uttal"
+msgstr ""
+
+#: lexiscan/ui/translation_view.py:26
+msgid "Översättning"
+msgstr ""
+
 #: lexiscan/window.py:28
 msgid "LexiScan - Ordbok"
 msgstr ""
@@ -48,24 +68,4 @@ msgstr ""
 #: lexiscan/window.py:134
 #, python-brace-format
 msgid "No results were found for '{word}'."
-msgstr ""
-
-#: lexiscan/ui/translation_view.py:26
-msgid "Översättning"
-msgstr ""
-
-#: lexiscan/ui/phonetic_view.py:32
-msgid "Spela uttal"
-msgstr ""
-
-#: lexiscan/ui/image_view.py:21
-msgid "Image support (ARASAAC)"
-msgstr ""
-
-#: lexiscan/ui/definition_view.py:17
-msgid "Definitioner"
-msgstr ""
-
-#: lexiscan/ui/definition_view.py:80
-msgid "Synonymer: "
 msgstr ""
