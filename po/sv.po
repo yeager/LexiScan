@@ -49,3 +49,6 @@ msgstr "Söker '{word}'..."
 msgid "Söker..."
 msgstr "Söker..."
 
+
+msgid "Translation"
+msgstr "Översättning"
